@@ -1,0 +1,105 @@
+/*
+1- Kutular arasındaki mesafeye margin diyoruz
+2- Kutu icindeki mesafeye, ferahliga padding diyoruz
+
+
+Kutulara yükseklik, genişlik gibi degerler atiyoruz. Bu kutulari yan yana üst üste vs yerlestiriyoruz.
+
+
+margin ve padding de 4 yöne birden özellik verirken saat yönünde ilerleniyor.
+Top-Right-Bottom-Left
+p + tab
+m + tab seklinde emmet kullanabiliriz
+
+container yapı dediğimiz yapıda, bir web sayfasının içine büyük bir kutu koyarak (örnek : sağa ve sola eşit uzaklıkta bütün sayfanın yüksekliğinde bir soyut kutu) geliştirmeleri ve diğer kutuları onun içinde yapabiliyoruz.
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    /* margin : 10px; demek hepsine 10 ver demek*/
+    /* margin-right: 25px;
+    margin-left: 10px;
+    margin-bottom: 25; */
+
+    margin-right: 25px;
+    float: left;    /* kutularin yan yana gelmesi icin float kullandik */
+
+}
+
+/* kutudan sonraki kısımları temizlemek icin kullandık. Kullanmazsak sonraki gelen kod kutunun yanindan basliyor */
+
+.container {
+    margin-top: 50px;
+    width: 1000px;
+    
+margin: 50px auto 0;    
+
+/* burada saat yonunde sirasiyle margin verdik
+    yukaridan 50px, soldan/sagdan oto, asagidan 0
+    
+    margin: 50 auto 0 auto seklinde uzun da yazabilirdik.
+*/
+
+
+/*
+    margin-left: auto;      
+    margin-right: auto;
+    
+    konteynır yapısını sagdan ve soldan otomatik olarak iterek ortaladik. Ustteki kisayol daha kullanisli. 
+*/
+}
+
+.card {
+    width: 20%;     /* bütün konteynır width'inin bu kadarını bu kutuya verdik*/
+    float: left;    /* kutuları yan yana koyduk */
+    padding: 5%;
+    margin-right: 3%;
+    background-color: rgb(204, 98, 98);
+    border-radius: 10px;           /* kutularin sekillerini bununla verdik*/
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.gradient {
+   background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    -webkit-box-shadow: 5px 11px 15px 4px rgba(0,0,0,0.23); 
+box-shadow: 5px 11px 15px 4px rgba(0,0,0,0.23);
+}

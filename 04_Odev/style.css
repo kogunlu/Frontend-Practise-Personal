@@ -1,0 +1,117 @@
+.img-center {
+    margin-left: 775px;
+    height: 100px;
+}
+
+.container-1 {
+    background-color: rgba(238,238,238,255);
+    width: 1700px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-2 {
+    background-color: white;
+    width: 1700px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+.list-1 {
+    list-style: none;
+    margin: 5px 220px 10px;
+    font-size: 16px;
+    
+}
+
+.card-1 {
+    background-color: rgba(126,229,218,255);
+    float: left;
+    width: 37%;
+    height: 70px;
+}
+
+.card-2 {
+    background-color: rgba(112,204,194,255);
+    float: left;
+    width: 22%;
+    height: 70px;
+    margin-left: 3px;
+}
+
+.card-3 {
+    background-color: rgba(98,179,170,255);
+    float: left;
+    width: 691px;
+    height: 70px;
+    margin-left: 3px;
+}
+
+.list-2 {
+    list-style: none;
+    margin: 5px 100px 0px 110px;
+    font-size: 13px ;
+}
+
+
+#paragraf {
+    margin-left: 750px;
+    height: 3px;
+}
+
+#search {
+    margin-left: 700px;
+    width: 275px;
+    margin-bottom: 5px;
+}
+
+#search-2 {
+    margin-left: 267px;
+    width: 130px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.btn {
+    background-color: rgb(232, 225, 225);
+    margin-left: 725px;
+    padding: 1px 4px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: rgb(202, 195, 195);
+    border-width: 1px;
+    color: black;
+    text-decoration: none;
+    float: left;
+}
+
+.btn1 {
+    background-color: rgb(232, 225, 225);
+    margin-left: 10px;
+    padding: 1px 6px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: rgb(202, 195, 195);
+    border-width: 1px;
+    color: black;
+    text-decoration: none;
+    float: left;
+}
+
+.btn3 {
+    background-color: rgb(232, 225, 225);
+    margin-left: 275px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: rgb(202, 195, 195);
+    border-width: 1px;
+    color: black;
+    text-decoration: none;
+    float: left;
+    height: 14px;
+    font-size: 13px;
+}

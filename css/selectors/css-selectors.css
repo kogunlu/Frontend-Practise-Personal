@@ -1,0 +1,45 @@
+.color-blue.fw-normal {
+    color: blue;
+    font-weight: normal
+}
+
+
+.color-blue .fw-normal{
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* ul > olmadan dogrudan li:first-child seklinde de kullilabilir.*/
+
+ul > li:first-child{
+    color: green;
+}
+
+li:last-child {
+    color: aqua;
+}
+
+/* listedeki n. maddeye erismek icin*/
+ul>li:nth-child(2) {
+    color: red;
+}
+
+/* listedeki tekleri ve ciftleri yakalamak icin
+ul>li:nth-child(odd) {
+    color: yellow;
+}
+
+
+ul>li:nth-child(even) {
+    background-color: aquamarine;
+} */
+
+/* Her 3 tanede 1 olacak sekilde yakalamak icin
++0 veya +1/2 gibi ekleyebiliriz */
+li:nth-child(3n+0) {
+    color: brown;
+}
+
+#lila {
+    color: #c8a2c8;
+}

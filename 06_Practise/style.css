@@ -1,0 +1,46 @@
+.header {
+    background-color: rgba(244,244,244,255);
+    width: 1800px;
+    height: 200px;
+    margin: 10px auto;
+
+}
+
+.container-header{
+    height: 150px;
+    width: 1000px;
+    margin: 25px 100px auto 500px;
+    padding: 25px;
+}
+
+.nav {
+    width: 400px;
+    height: 900px;
+    margin: auto auto auto 51px;
+
+}
+
+.card-1 {
+    width: 1200;
+    height: 200px;
+}
+
+.container-main {
+    width: 1200px;
+    height: 1000px;
+    margin-left: 650px;
+    margin-top: 25px;
+}
+
+.vl {
+    border-left: 6px solid grey;
+    border-radius: 2px;
+    border-width: 2px;
+    height: 900px;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.li {
+    margin-top: 20px;
+}

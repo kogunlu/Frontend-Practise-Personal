@@ -1,0 +1,41 @@
+
+
+        body{
+            background-color:  rgb(222, 231, 182);
+            color: azure;
+        }
+
+        h4 {
+            color: royalblue ; 
+            font-size: 42px;
+            text-transform: uppercase;
+        }
+        p {
+            color: rgb(122, 192, 235);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            color: violet;
+            font-size: 66px;
+        }
+
+
+        /*
+            Bu bir aciklama satiridir.
+        */
+
+
+
+
+        /**************************** Layout *********************************/
+
+
+
+
+
+
+
+
+
+        /**************************** Card *********************************/

@@ -1,0 +1,28 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.center-deneme {
+max-width: 1000px;
+margin: auto;
+}
+
+.center-deneme2 {
+    max-width: 500px;
+    margin: auto
+}
+
+
+body {
+    background-color: rgb(199, 228, 218);
+}
+
+#Hizmetlerimiz{
+    color: red;
+}
+
+
+
