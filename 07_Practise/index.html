@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pricing Table</title>
+</head>
+
+<body class="bg-blue-500 flex flex-col items-center">
+    <header class="flex flex-col items-center bg-slate-200 mt-12 rounded-full px-10 lg:w-5/6 w-3/6 py-2">
+        <h1 class="text-2xl font-bold">Simple transparent pricing</h1>
+        <p class="text-base text-slate-500">All plans include a 30 days trial.</p>
+    </header>
+
+    <div class="flex flex-row justify-center mt-12">
+        <form class="bg-slate-200 flex flex-row space-x-12 rounded-full px-5 lg:mt-5">
+        <div class="space-x-1">
+            <input type = "radio" id="Annual" name="Subs" value="Billed Annualy (save 15%)">
+            <label class="text-slate-400" for="Annual">Billed Annualy (save 15%)</label>
+        </div>
+        <div>
+            <input type = "radio" id="Monthly" name="Subs" value="Billed Monthly">
+            <label class="text-slate-400" for="Monthly">Billed Monthly</label>
+        </div>
+        </form>
+    </div>
+
+    <section class="flex flex-col items-center py-10 space-y-20 lg:flex-row lg:items-center lg:justify-center lg:space-x-20 lg:py-10 lg:space-y-0 lg:mt-20 lg:w-full">
+       
+            <div class="h-102 w-60 bg-slate-200 flex flex-col items-center py-4 rounded-lg">
+                <div class="text-slate-400 text-xl font-bold px-6">
+                    <h1 class="text-3xl">Basic</h1>
+                    <p>for hobbiests</p>
+                </div>
+
+                <div class="flex flex-row space-x-1 mt-5">
+                    <h2 class="text-2xl">$</h2>
+                    <h1 class="text-5xl">8</h1>
+                    <div class="text-slate-400 text-sm">
+                        <p>per user/month</p>
+                        <p>billed annualy</p>
+                    </div>
+                </div>
+
+                <div class="pt-14">
+                    <ul class="flex flex-col space-y-3 items-start text-base">
+                        <li>5 projects</li>
+                        <li>100 assets</li>
+                        <li>Log history</li>
+                        <li>Priority support</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <button class="rounded-full bg-slate-200 border-2 border-white w-44 h-8 mt-5 hover:bg-slate-50">Get started</button>
+                </div>
+
+            </div>
+
+            <div class="h-102 w-60 bg-slate-200 flex flex-col items-center py-4 mt-5 rounded-lg">
+                <div class="text-slate-400 text-xl font-bold px-6">
+                    <h1 class="text-3xl">Pro</h1>
+                    <p>for professionals</p>
+                </div>
+
+                <div class="flex flex-row space-x-1 mt-5">
+                    <h2 class="text-2xl">$</h2>
+                    <h1 class="text-5xl">12</h1>
+                    <div class="text-slate-400 text-sm">
+                        <p>per user/month</p>
+                        <p>billed annualy</p>
+                    </div>
+                </div>
+
+                <div class="pt-14">
+                    <ul class="flex flex-col space-y-3 items-start text-base">
+                        <li>Unlimited projects</li>
+                        <li>Unlimited assets</li>
+                        <li>Log history</li>
+                        <li>Priority support</li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="rounded-full bg-slate-200 border-2 border-white w-44 h-8 mt-5 hover:bg-slate-50">Get started</button>
+                </div>
+            </div>
+            
+            <div class="h-102 w-60 bg-slate-200 flex flex-col items-center py-4 rounded-lg">
+                <div class="text-slate-400 text-xl font-bold px-6">
+                    <h1 class="text-3xl">Enterprise</h1>
+                    <p>for teams</p>
+                </div>
+
+                <div class="flex flex-row space-x-1 mt-5">
+                    <h2 class="text-2xl">$</h2>
+                    <h1 class="text-5xl">30</h1>
+                    <div class="text-slate-400 text-sm">
+                        <p>per user/month</p>
+                        <p>billed annualy</p>
+                    </div>
+                </div>
+
+                <div class="pt-14">
+                    <ul class="flex flex-col space-y-3 items-start text-base">
+                        <li>Unlimited projects</li>
+                        <li>Unlimited assets</li>
+                        <li>Log history</li>
+                        <li>Priority support</li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="rounded-full bg-slate-200 border-2 border-white w-44 h-8 mt-5 hover:bg-slate-50">Get started</button>
+                </div>
+            </div>
+
+
+    </section>
+
+
+    
+</body>
+</html>
